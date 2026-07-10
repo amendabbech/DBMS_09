@@ -49,7 +49,7 @@ Open that URL in your browser before writing a single line of code — the Swagg
 
 > **Screenshot 1:** Take a screenshot of the Swagger UI showing the list of available endpoints.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/1.png)
 
 ---
 
@@ -102,7 +102,7 @@ python3 --version
 
 > **Screenshot 2:** Take a screenshot showing the version outputs of `uv` and `python3`.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/2.png)
 
 ---
 
@@ -161,7 +161,7 @@ uv run python -c "import requests; print('requests', requests.__version__)"
 
 > **Screenshot 3:** Take a screenshot showing the output confirming `requests` is available.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/3.png)
 
 ### Step 5 – Commit
 
@@ -269,7 +269,7 @@ for p in parts:
 
 > **Screenshot 4:** Take a screenshot showing the parts list printed in the Python REPL.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/4.png)
 
 Exit with `exit()`.
 
@@ -708,11 +708,11 @@ The connection dialog should appear. Enter the base URL (`http://128.140.85.215:
 
 > **Screenshot 5:** Take a screenshot of the connection dialog.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/5.png)
 
 > **Screenshot 6:** Take a screenshot of the main window showing the Parts tab populated with data from the live server.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/6.png)
 
 ### Step 4 – Commit
 
@@ -749,7 +749,7 @@ In the **Parts** tab, use the *Deliver parts* form:
 
 > **Screenshot 7:** Parts tab after delivering, showing updated stock values.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/7.png)
 
 ### Step 2 – Record a Production Run
 
@@ -761,15 +761,14 @@ In the **Products** tab, use the *Record production run* form:
 
 > **Screenshot 8:** Parts tab after production, showing reduced stock.
 >
-> `[insert screenshot]`
-
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/8.png)
 ### Step 3 – Check the Bill of Materials
 
 Switch to the **Bill of Materials** tab. Enter Product ID `2` (Racing bike frame) and press **Load**.
 
 > **Screenshot 9:** Bill of Materials tab showing all five parts for the racing bike frame.
 >
-> `[insert screenshot]`
+>  ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/9.png)
 
 ### Step 4 – Check Out a Finished Product
 
@@ -779,7 +778,7 @@ In the **Products** tab, use the *Check out from warehouse* form:
 
 > **Screenshot 10:** Products tab after checkout, showing `Total out` incremented by 1.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/10.png)
 
 ### Step 5 – Trigger a Reorder Warning
 
@@ -787,7 +786,7 @@ Deliver only 1 steel tube (Part ID `1`) to bring stock very low, then produce 1 
 
 > **Screenshot 11:** Reorder Warnings tab showing at least one warning entry.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/11.png)
 
 ### Step 6 – Stocktake Correction
 
@@ -917,7 +916,7 @@ On Windows: `fabrik-frontend.exe` instead.
 
 > **Screenshot 13:** The application running from the PyInstaller-built executable.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/13.png)
 
 > **Note:** PyInstaller builds are platform-specific. A build on Linux produces a Linux binary only. To distribute for all three platforms you need to build once on each operating system (or use a CI/CD pipeline).
 
@@ -961,7 +960,7 @@ fabrik-frontend
 
 > **Screenshot 14:** Terminal showing the `.deb` installation and the application launching from `/usr/bin/fabrik-frontend`.
 >
-> `[insert screenshot]`
+> ![image alt](https://github.com/amendabbech/DBMS_09/blob/919630872806d9f515445bf99939b1197ca2a5fd/14.png)
 
 ---
 
